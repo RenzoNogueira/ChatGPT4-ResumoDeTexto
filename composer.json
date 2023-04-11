@@ -1,0 +1,25 @@
+{
+    "name": "desenvolvimento01/charts-in-gpt",
+    "require": {
+        "openai-php/client": "^0.4.1",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.6",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Desenvolvimento01\\ChartsInGpt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "renzonogueira7209",
+            "email": "mainrenzossn@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
